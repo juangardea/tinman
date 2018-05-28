@@ -22,7 +22,7 @@ Time spent: **6** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.5 
-  - [X] GIF Walkthrough: 
+  - [X] GIF Walkthrough: <img src="https://github.com/juangardea/tinman/blob/master/onmouseover.gif" width="800">
   - [X] Steps to recreate: Log in to WP as admin. Create new post and insert code as shows in GIF, then submit the post and view. Hover over "Hover here."
   - [X] Affected source code: https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8
   
