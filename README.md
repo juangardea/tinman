@@ -15,7 +15,8 @@ Time spent: **6** hours spent in total
     - Fixed in version: 4.2.13
   - [X] GIF Walkthrough: <img src="https://github.com/juangardea/tinman/blob/master/XSS1.gif" width="800">
   - [X] Steps to recreate: Log in to word press as admin. Create new post and copy [embed src='https://www.youtube.com/embed/M_nIIcKTxGk\x3csvg onload=alert(1)\x3e'][/embed] into the text field. Then publish the post and view.
-  - [X] Affected source code: https://core.trac.wordpress.org/changeset/40160/trunk/src/wp-includes/embed.php?old=38361&old_path=trunk%2Fsrc%2Fwp-includes%2Fembed.php
+  - [X] Affected source code: <a href="https://core.trac.wordpress.org/changeset/40160/trunk/src/wp-includes/embed.php?old=38361&old_path=trunk%2Fsrc%2Fwp-includes%2Fembed.php>
+  -Link
   
 2. (Required) Authenticated Shortcode Tags Cross-Site Scripting (XSS)
   - [X] Summary: XSS scripting vulnerability allows remote attackers to inject web script or HTML by leveraging the mishandling of enclosed HTML elements during processing of shortcode tags. 
@@ -24,7 +25,8 @@ Time spent: **6** hours spent in total
     - Fixed in version: 4.2.5 
   - [X] GIF Walkthrough: <img src="https://github.com/juangardea/tinman/blob/master/onmouseover.gif" width="800">
   - [X] Steps to recreate: Log in to WP as admin. Create new post and insert code as shows in GIF, then publish the post and view. Hover over "Hover here."
-  - [X] Affected source code: https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8
+  - [X] Affected source code: <a href="https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8">
+  -Link
   
 3. (Required) Authenticated Cross-Site Scripting (XSS)
   - [X] Summary: Multiple cross-site scripting (XSS) vulnerabilities in wp-includes/class-wp-theme.php in WordPress before 4.4.1 allow remote attackers to inject arbitrary web script or HTML via a (1) stylesheet name or (2) template name to wp-admin/customize.php. 
