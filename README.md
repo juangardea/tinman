@@ -26,7 +26,7 @@ Time spent: **6** hours spent in total
   - [X] GIF Walkthrough: <img src="https://github.com/juangardea/tinman/blob/master/onmouseover.gif" width="800">
   - [X] Steps to recreate: Log in to WP as admin. Create new post and insert code as shows in GIF, then publish the post and view. Hover over "Hover here."
   - [X] Affected source code: <a href="https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8">
-  -Link
+   -Link
   
 3. (Required) Authenticated Cross-Site Scripting (XSS)
   - [X] Summary: Multiple cross-site scripting (XSS) vulnerabilities in wp-includes/class-wp-theme.php in WordPress before 4.4.1 allow remote attackers to inject arbitrary web script or HTML via a (1) stylesheet name or (2) template name to wp-admin/customize.php. 
@@ -37,7 +37,7 @@ Time spent: **6** hours spent in total
   - [X] Steps to recreate: Log in as admin to WP. Create a new post and insert code as shown in GIF. Publish post and view. 
   /a>
   - [X] Affected source code: <a href="https://core.trac.wordpress.org/changeset/36185">
-  -Link
+   -Link
 
 
 ## Assets
