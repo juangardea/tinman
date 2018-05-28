@@ -23,7 +23,7 @@ Time spent: **6** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.5 
   - [X] GIF Walkthrough: 
-  - [X] Steps to recreate: Log in to WP as admin. Create new post and insert this code into the text field: "Hover over below for message:[caption width="182" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Hover here</a>" then submit the post and view. Hover over "Hover here."
+  - [X] Steps to recreate: Log in to WP as admin. Create new post and insert code as shows in GIF, then submit the post and view. Hover over "Hover here."
   - [X] Affected source code: https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8
   
 3. (Required) Vulnerability Name or ID
