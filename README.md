@@ -17,16 +17,16 @@ Time spent: **6** hours spent in total
   - [X] Steps to recreate: Log in to word press as admin. Create new post and copy [embed src='https://www.youtube.com/embed/M_nIIcKTxGk\x3csvg onload=alert(1)\x3e'][/embed] into the text field. Then Submit the post and view.
   - [X] Affected source code: https://core.trac.wordpress.org/changeset/40160/trunk/src/wp-includes/embed.php?old=38361&old_path=trunk%2Fsrc%2Fwp-includes%2Fembed.php
   
-1. (Required)
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1]
-1. (Required) Vulnerability Name or ID
+2. (Required) Authenticated Shortcode Tags Cross-Site Scripting (XSS)
+  - [X] Summary: XSS scripting vulnerability allows remote attackers to inject web script or HTML by leveraging the mishandling of enclosed HTML elements during processing of shortcode tags. 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.5 
+  - [X] GIF Walkthrough: 
+  - [X] Steps to recreate: Log in to WP as admin. Create new post and insert this code into the text field: Hover over below for message:[caption width="182" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Hover here</a> then submit the post and view. Hover over "Hover here."
+  - [X] Affected source code: https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8
+  
+3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
