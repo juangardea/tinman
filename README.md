@@ -15,7 +15,7 @@ Time spent: **6** hours spent in total
     - Fixed in version: 4.2.13
   - [X] GIF Walkthrough: <img src="https://github.com/juangardea/tinman/blob/master/XSS1.gif" width="800">
   - [X] Steps to recreate: Log in to word press as admin. Create new post and copy [embed src='https://www.youtube.com/embed/M_nIIcKTxGk\x3csvg onload=alert(1)\x3e'][/embed] into the text field. Then Submit the post and view.
-  - [ ] Affected source code:
+  - [X] Affected source code:https://core.trac.wordpress.org/changeset/40160/trunk/src/wp-includes/embed.php?old=38361&old_path=trunk%2Fsrc%2Fwp-includes%2Fembed.php
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required)
   - [ ] Summary: 
