@@ -17,7 +17,7 @@ Time spent: **6** hours spent in total
   - [X] Steps to recreate: Log in to word press as admin. Create new post and copy [embed src='https://www.youtube.com/embed/M_nIIcKTxGk\x3csvg onload=alert(1)\x3e'][/embed] into the text field. Then Submit the post and view.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+1. (Required) Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
