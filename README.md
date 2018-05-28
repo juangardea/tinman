@@ -8,16 +8,16 @@ Time spent: **6** hours spent in total
 
 ## Pentesting Report
 
-1. (Required) Vulnerability Name or ID
+1. (Required) Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [X] Summary: I copied the youtube video URL and used the embed shortcut to create the attack. I was able to recreate the attack because backlash charaters are filtered out using HTML sanitazion function wp_kses() and it does not consider the escape sequences like \x3c that correspons to < and >.
     - Vulnerability types: XSS
     - Tested in version: WP 4.2
-    - Fixed in version: latest
+    - Fixed in version: 4.2.13
   - [X] GIF Walkthrough: <img src="https://github.com/juangardea/tinman/blob/master/XSS1.gif" width="800">
   - [X] Steps to recreate: Log in to word press as admin. Create new post and copy [embed src='https://www.youtube.com/embed/M_nIIcKTxGk\x3csvg onload=alert(1)\x3e'][/embed] into the text field. Then Submit the post and view.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Authenticated Stored Cross-Site Scripting (XSS)
+1. (Required)
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
