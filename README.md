@@ -34,7 +34,8 @@ Time spent: **6** hours spent in total
   - [X] GIF Walkthrough: <img src="https://github.com/juangardea/tinman/blob/master/authenticatedXSS.gif" width= "800">
   - [X] Steps to recreate: Log in as admin to WP. Create a new post and insert code as shown in GIF. Publish post and view. 
   /a>
-  - [X] Affected source code: <a href="https://core.trac.wordpress.org/changeset/36185">-Link<
+  - [X] Affected source code: <a href="https://core.trac.wordpress.org/changeset/36185">
+  -Link
 
 
 ## Assets
